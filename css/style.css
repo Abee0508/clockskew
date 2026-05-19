@@ -146,11 +146,7 @@ a:hover{color:var(--cs-cyan-2)}
   transition:.4s cubic-bezier(.2,.8,.2,1);
   position:relative;overflow:hidden;
 }
-.cs-card::before{
-  content:"";position:absolute;inset:0;
-  background:linear-gradient(135deg,rgba(0,212,255,.08),transparent 60%);
-  opacity:0;transition:.4s;
-}
+
 .cs-card:hover{
   transform:translateY(-10px);
   border-color:rgba(0,212,255,.5);
